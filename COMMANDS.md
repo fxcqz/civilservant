@@ -1,5 +1,3 @@
-## !khan
-   Makes the bot say KHAAAAAAAAAAAAN.
 ## !say _text_
    Makes the bot NOTICE the current channel with the content.
 ## !src
@@ -61,6 +59,8 @@
    Returns a random pizza from the "classic" range.
 ## !nickcount
    Replies with the cumulative count of nicknames tracked.
+## !msgcount
+   Replies with the count of messages received since last connect.
 ## !del _slug_
    Deletes a paste.
 ## !sunrise
