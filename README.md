@@ -41,6 +41,8 @@ Some explanation of the not-obvious options:
 # Installation
 Some modules require the `canvas` module, which depends on Cairo.
 You may need to install `libcairo2-dev` and `libpango1.0-dev` on Ubuntu.
+You'll also need `libjpeg-dev` and `libgif-dev`, even though we only use
+the former.
 On CentOS, you apparently need `cairo` and `cairo-devel`.
 
 If you are having problems installing these, just delete the `modules/imgur.js` file.
