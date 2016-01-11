@@ -39,6 +39,15 @@ module.exports = {
 				}
 				return 'this is not the control channel';
 			}
+		},
+		quiet: {
+			help: 'Checks whether the bot is set to \'quiet\' mode',
+			command: function ( bot ) {
+				if ( bot.config.irc.quiet ) {
+					return 'quiet; can\'t talk unless spoken to';
+				}
+				return 'loud: may talk without explicit interaction';
+			}
 		}
 	}
 };
